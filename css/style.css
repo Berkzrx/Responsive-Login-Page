@@ -12,9 +12,9 @@ body{
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     width: 100%;
-    background-image: url(images/wave.svg);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-image: url(../images/wave.svg);
 }
 
 .main-content {
@@ -37,7 +37,7 @@ body{
 .col2{
     width: 50%;
     height: 95%;
-    background-image: url(/images/undraw_astronaut_re_8c33.svg);
+    background-image: url(../images/undraw_astronaut_re_8c33.svg);
     background-size: 25em;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -168,8 +168,11 @@ form .login-button{
     color:#a9b2c3;
 }
 
-
-
+@media screen and (max-width:1280px){
+    .col2{
+        background-image:none;
+    }
+}
 
 
 
@@ -181,6 +184,7 @@ form .login-button{
         width:100vw;
         height: 100vh;
         background-color:#282a37;
+        background-image: none;
 
     }
     .main-content {
