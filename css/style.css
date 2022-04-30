@@ -62,7 +62,7 @@ header {
 }
 header .logo{
     height:2.5em;
-    margin-right: 6em;
+    margin-right: 5em;
 }
 header .list-nav{
     display: flex;
@@ -204,7 +204,7 @@ form .login-button{
         box-shadow: none;
         text-align: center;
     }
-
+    
     .col1{
         width: 100%;
     }
@@ -218,7 +218,8 @@ form .login-button{
         justify-content: space-between;
     }
     header .logo{
-        height:3em;
+        height:2.5em;
+        margin-right:1.5em;
     }
     header .list-nav{
         display: flex;
@@ -311,19 +312,18 @@ form .login-button{
         background-color: rgb(255, 166, 0);
         font-weight: 600;
         cursor: pointer;
+        margin-bottom: 4em;
     }
     
     .main-content .copyright {
-        position: absolute;
+        position: static;
         text-decoration: none;
-        margin: auto;
-        bottom: 0;
-        color: #282a37;
+        color: #808fad;
         font-weight: 600;
         font-size: .7em;
     }
     
     .main-content .copyright:hover{
-        color:#fff;
+        color:#a9b2c3;
     }
 }
